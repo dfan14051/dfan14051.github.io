@@ -20,7 +20,7 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : true # true, false (default)
 search_full_content      : # true, false (default)
-search_provider          : lunr (default), algolia, google
+search_provider          : lunr #lunr (default), algolia, google
 # SEO Related
 google_site_verification :
 social:
@@ -41,13 +41,12 @@ analytics:
 author:
   name             : "David Fan" 
   avatar           : "/assets/images/bio-picture-cat.jpg"
-  bio              : "Undergraduate CS student. Former SWE Intern at Google, now interested in doing AI research. Looking to pursue a PhD or residency with an industry research lab. Need to add more here really..."
+  bio              : "Undergraduate CS student at Case Western Reserve University. Former intern at Google, now interested in doing AI research. Looking to pursue a PhD or residency with an industry research lab. Need to add more here really..."
   location         : "Cleveland"
   email            : "dmf98@case.edu"
   uri              : "http://www.dfan.me"
   github           : "dfan14051"
   linkedin         : david-fan-926026121
-  stackoverflow    : 7361176/david-fan
   twitter          : real_David_Fan
 
 # Reading Files
