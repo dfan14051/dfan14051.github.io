@@ -5,17 +5,17 @@ minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "
 # Site Settings
 locale                   : "en-US"
 title                    : "dfan.me"
-title_separator          : "-"
+title_separator          : " | "
 name                     : "David Fan"
 description              : "My personal research blog."
-url                      : "dfan.me" 
+url                      : "http://dfan.me" 
 repository               : "dfan14051/dfan14051.github.io" 
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : "disqus"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "dfan-me" 
 atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : true # true, false (default)
@@ -25,8 +25,9 @@ search_provider          : lunr (default), algolia, google
 google_site_verification :
 social:
   type                   : "Person" # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # TODO: Add socials
+  links:
+    - "https://twitter.com/real_David_Fan"
+    - "https://www.linkedin.com/in/david-fan-926026121/"
 
 # Analytics
 analytics:
@@ -39,15 +40,15 @@ analytics:
 # Site Author
 author:
   name             : "David Fan" 
-  avatar           : # TODO: Add avatar 
+  avatar           : "/assets/images/bio-picture-cat.jpg"
   bio              : "Undergraduate CS student. Former SWE Intern at Google, now interested in doing AI research. Looking to pursue a PhD or residency with an industry research lab. Need to add more here really..."
   location         : "Cleveland"
   email            : "dmf98@case.edu"
-  uri              : "dfan.me"
+  uri              : "http://www.dfan.me"
   github           : "dfan14051"
-  linkedin         : # TODO 
-  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
-  twitter          :
+  linkedin         : david-fan-926026121
+  stackoverflow    : 7361176/david-fan
+  twitter          : real_David_Fan
 
 # Reading Files
 include:
